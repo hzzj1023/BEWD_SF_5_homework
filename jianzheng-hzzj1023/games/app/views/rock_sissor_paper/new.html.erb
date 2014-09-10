@@ -1,0 +1,9 @@
+<h1>Welcome to Rock Sissor and Paper!</h1>
+
+<h2>Pick Rock (0) Sissor (1) Paper (2)</h2>
+
+<ul>
+<% (0..2).each do |number| %>
+  <li><%= link_to number, rock_sissor_paper_path(number) %></li>
+<% end %>
+</ul>

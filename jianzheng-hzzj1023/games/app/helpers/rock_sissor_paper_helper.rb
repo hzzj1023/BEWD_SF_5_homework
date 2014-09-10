@@ -1,0 +1,2 @@
+module RockSissorPaperHelper
+end
